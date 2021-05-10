@@ -1,19 +1,28 @@
-# AutoLogin
-a simple python script that will automatically log you into a specified account if you have multiple
+# RiotAutoLogin
+A simple python script that will automatically log you into a specified riot account if you have multiple 
 
+If you run the script try not to tab into a different window, as the script assumes that the riot client is already selected.
+Feel free to make changes to the sleep timer. 8 seconds is what I find the most consistent.
 
-This script requires pynput 
+## This script requires pynput 
 
-	use the command "pip install pynput" in cmd to install 
+	Use the command "pip install pynput" in cmd to install 
 
-"applocation" needs the absolute path of the game client you want to launch. You'll also need to replace any "\\" with a "//"
+## "applocation" needs the absolute path of the game client you want to launch. You'll also need to replace any "\\" with a "//"
 	
 	"G:\Riot Games\LoL\LeagueClient.exe" ---> "G://Riot Games//LoL//LeagueClient.exe"
+For league you can point to "LeagueClient.exe" straight in the league install directory.
+
+For a game like valorant where the client points to the actual Riot client before launching the game you'll need to do a few steps 
+	
+	1. Create a shortcut of the VALORANT.exe located in your valorant install directory
+	2. Right click on the shortcut and go to properties
+	3. Add the following launch options to the "Target" textfield
+	   --launch-product=valorant --launch-patchline=live
+	4. Hit apply and set the "applocation" to the path of the newly created shortcut
+
+## "username" needs the username of the account you want to sign in as
+
+## "password" needs the password of the account you want to sign in as
 
 
-"username" needs the username of the account you want to sign in as
-
-"password" needs the password of the account you want to sign in as
-
-
-feel free to make changes to the sleep timer. 8 seconds is what i find is the most consistent.
