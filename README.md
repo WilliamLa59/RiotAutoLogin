@@ -10,7 +10,7 @@ Feel free to make changes to the sleep timer. 8 seconds is what I find the most 
 
 ## "applocation" needs the absolute path of the game client you want to launch. You'll also need to replace any "\\" with a "//"
 	
-	"G:\Riot Games\LoL\LeagueClient.exe" ---> "G://Riot Games//LoL//LeagueClient.exe"
+	"G:\Riot Games\LoL\LeagueClient.exe" becomes ---> "G://Riot Games//LoL//LeagueClient.exe"
 For league you can point to "LeagueClient.exe" straight in the league install directory.
 
 For a game like valorant where the client points to the actual Riot client before launching the game you'll need to do a few steps 
