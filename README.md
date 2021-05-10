@@ -16,3 +16,4 @@ This script requires pynput
 "password" needs the password of the account you want to sign in as
 
 
+feel free to make changes to the sleep timer. 8 seconds is what i find is the most consistent.
