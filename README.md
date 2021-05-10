@@ -17,7 +17,7 @@ For a game like valorant where the client points to the actual Riot client befor
 	
 	1. Create a shortcut of the VALORANT.exe located in your valorant install directory
 	2. Right click on the shortcut and go to properties
-	3. Add the following launch options to the "Target" textfield
+	3. Add the following launch options to the "Target" textfield. Do not replace whats already in the textfield as the path of the client should already be there
 	   --launch-product=valorant --launch-patchline=live
 	4. Hit apply and set the "applocation" to the path of the newly created shortcut
 
